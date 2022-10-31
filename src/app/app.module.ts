@@ -8,6 +8,8 @@ import { ExperienciaComponent } from './componentes/experiencia/experiencia.comp
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { CopirightComponent } from './componentes/copiright/copiright.component';
 import { RedesComponent } from './componentes/redes/redes.component';
+import { PresidenteComponent } from './presidente/presidente.component';
+import { GobernadorComponent } from './gobernador/gobernador.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { RedesComponent } from './componentes/redes/redes.component';
     ExperienciaComponent,
     HabilidadesComponent,
     CopirightComponent,
-    RedesComponent
+    RedesComponent, 
+    PresidenteComponent, GobernadorComponent
+    
   ],
   imports: [
     BrowserModule
